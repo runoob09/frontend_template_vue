@@ -1,0 +1,26 @@
+{
+  "name": "frontend_template_vue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "tailwindcss": "^3.4.17",
+    "vue": "^3.5.13",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@arco-design/web-vue": "^2.56.3",
+    "@types/node": "^22.10.5",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.5",
+    "vue-tsc": "^2.2.0"
+  }
+}
